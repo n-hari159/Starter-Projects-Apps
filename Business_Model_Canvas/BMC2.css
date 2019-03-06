@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Ariandi';
+    src: url('Ariandi.ttf') format('truetype');
+}
+.inner{
+    display : none ;
+}
+
+html {
+    background-color: rgb(168, 165, 165);
+}
+
+.form-header ,p{
+    font-family: 'Ariandi';
+}
+
+.wrapper {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-holder {
+    position: relative;
+    float: left;
+}
+
+.form-content {
+    float: right;
+    position: relative;
+    height: 250px;
+    width: 400px;
+    top: 100px;
+    left: -50px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.image {
+    position: relative;
+    top: 120px;
+    width: 370px;
+    height: 250px;
+}
+
+.buttons {
+    float : right;
+    position: relative;
+    top: 180px;
+    width: 50%;
+    left:30%;
+}
