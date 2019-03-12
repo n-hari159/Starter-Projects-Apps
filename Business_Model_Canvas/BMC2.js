@@ -26,8 +26,8 @@ function nextPrev(n){
     x[currentTab].style.display="none";
     currentTab = currentTab + n;
     if (currentTab >= x.length) {
-        alert("Thanks");
         document.getElementById("wizard").submit();
+        // return mailMe(this.form);
         return false;
     } 
     showTab(currentTab);
@@ -44,4 +44,11 @@ function validateForm() {
       }
     }
     return valid;
-  }
+}
+
+// function mailMe(form){
+//     Subject="Business Model Canvas";
+//     CC= document.getElementById("cc").value;
+//     location = "mailto:n.hari159@gmail.com?subject="+Subject+"&cc="+CC;
+//     return true;
+// }
